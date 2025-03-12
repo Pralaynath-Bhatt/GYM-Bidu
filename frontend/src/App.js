@@ -4,7 +4,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <ResponsiveAppBar/>
-        Lets start the actual coding
+        Lets start the actual coding 
+        trying it on my mobile;
       </header>
     </div>
   );
