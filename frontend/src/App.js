@@ -6,6 +6,7 @@ function App() {
         <ResponsiveAppBar/>
         Lets start the actual coding 
         trying it on my mobile;
+        and its working with the group
       </header>
     </div>
   );
