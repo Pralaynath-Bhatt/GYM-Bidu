@@ -4,7 +4,7 @@ import ListGroup from 'react-bootstrap/ListGroup';
 
 function HomeCard(props) {
   return (
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ width: '20rem' }}>
       <Card.Img variant="top" src={props.img} />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
@@ -13,9 +13,10 @@ function HomeCard(props) {
         </Card.Text>
       </Card.Body>
       <ListGroup className="list-group-flush">
-        <ListGroup.Item></ListGroup.Item>
-        <ListGroup.Item></ListGroup.Item>
-        <ListGroup.Item></ListGroup.Item>
+      <ListGroup.Item><b>Factors</b></ListGroup.Item>
+        <ListGroup.Item>{props.list0}</ListGroup.Item>
+        <ListGroup.Item>{props.list1}</ListGroup.Item>
+        <ListGroup.Item>{props.list2}</ListGroup.Item>
       </ListGroup>
       <Card.Body>
         <Card.Link href="#">Card Link</Card.Link>
