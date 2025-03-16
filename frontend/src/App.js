@@ -1,6 +1,6 @@
-import ResponsiveAppBar from "./myComponents/ResponsiveAppBar.js";
-
-import Stack from 'react-bootstrap/Stack';
+import ResponsiveAppBar from "./myComponents/ResponsiveAppBar.js"
+import Home from './myComponents/Home.js'
+import Stack from 'react-bootstrap/Stack'
 
 function App() {
   return (
@@ -8,7 +8,9 @@ function App() {
       <header className="App-header">
         <Stack>
           <ResponsiveAppBar/>
+          <Home/>
         </Stack>
+        
         Lets start the actual coding 
         trying it on my mobile;
         and its working with the group
