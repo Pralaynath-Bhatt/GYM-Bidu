@@ -16,12 +16,6 @@ const plans = [
 export default function Home() {
   return (
     <div >
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-
-
       <h1>Welcome to a complete Fitness tracker</h1>
       <p>Here we have designed plans for you to get your fitness goals</p>
       <Container >
